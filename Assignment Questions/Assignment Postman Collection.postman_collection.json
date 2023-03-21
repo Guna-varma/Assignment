@@ -1,0 +1,210 @@
+{
+	"info": {
+		"_postman_id": "963958a0-8018-4f22-9dc0-64ecf28fdfbd",
+		"name": "Assignment Postman Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22866408"
+	},
+	"item": [
+		{
+			"name": "3000/v1/upload-deptLocations",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Meda Varma/Downloads/CSV/dept_locations.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/v1/upload-data-deptLoc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"upload-data-deptLoc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3000/v1/upload-department",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Meda Varma/Downloads/CSV/department.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/v1/upload-data-department",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"upload-data-department"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3000/v1/upload-dependent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Meda Varma/Downloads/CSV/dependent.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/v1/upload-data-dependent",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"upload-data-dependent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3000/v1/upload-employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Meda Varma/Downloads/CSV/employee.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/v1/upload-data-employee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"upload-data-employee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3000/v1/upload-project",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Meda Varma/Downloads/CSV/project.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/v1/upload-data-project",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"upload-data-project"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3000/v1/upload-workson",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Meda Varma/Downloads/CSV/works-on.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/v1/upload-data-workson",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"upload-data-workson"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/v1/q1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/v1/q1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"q1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
